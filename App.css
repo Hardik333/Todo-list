@@ -1,0 +1,47 @@
+.app {
+  background: #010202;
+  height: 100vh;
+  padding: 30px;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+}
+.box{
+  padding-left: 505px;
+}
+.head {
+	margin: 1em 0 0.5em 0;
+	color: #f3eded;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Orienta', sans-serif;
+	letter-spacing: 1px;
+	font-style: italic;
+  padding-left: 606px;
+}
+input{
+  width: 100%;
+}
+input:empty{
+  color: rgb(187, 62, 62);
+}
+input:hover{
+  color: red;
+}
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
